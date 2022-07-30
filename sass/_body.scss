@@ -1,0 +1,4 @@
+#body {
+    background-color: map-get($colores, llamativo);
+    background-image: map-get($colores, gradiente-body);
+}

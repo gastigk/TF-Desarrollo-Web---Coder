@@ -1,0 +1,175 @@
+
+ .encabezado{
+    height: 300px;
+    width: auto;
+    background-image: url(../img/acurelasCampoFlores.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoAcuarelas{
+    height: 300px;
+    width: auto;
+    background-image: url(../img/acurelasCampo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoContacto{
+    height: 300px;
+    width: auto;
+    background-image: url(../img/pastelTetera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoClases{
+    height: 300px;
+    width: auto;
+    background-image: url(../img/acurelasPajaros.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoPasteles{
+    height: 300px;
+    width: auto;
+    background-image: url(../img/acurelasPortada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.animate .nombre{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}    
+
+.galeria{
+    text-align: center;
+    .galeriaTittle{
+        font-family: 'Roboto Mono', monospace;
+        color: #333399;
+    }_
+    .galeriaText{
+        color: #3333cc;
+    }
+    .cardTittle{
+        font-family: 'Roboto Mono', monospace;
+        background-color: #ff0066;
+        color: white;
+    }
+    .cardSubtittle{
+        font-family: 'Roboto Mono', monospace;
+        color: #3333cc;
+    }
+}
+
+.galeria .cards .card__btn{
+    display: inline-block;
+    width: auto;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #ff0066;
+  }
+
+.nosotras{
+    color: #3333cc;
+    text-align: center;
+    .nosotras__tittle{
+        font-family: 'Roboto Mono', monospace;
+        color: #333399;
+    }
+    .nosotras__card{
+        background-color: #ff0066;
+    }
+    .card-title{
+        font-family: 'Roboto Mono', monospace;
+        color: #333399;
+    }
+    .card-text{
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+    }
+}
+
+
+.obras{
+    text-align: center;
+    background-color: #333399;
+    color: white;
+    .obras__tittle{
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btn{
+        display: inline-block;
+        width: auto;
+        border-radius: 14px;
+        text-decoration: none;
+        background-color: #ff0066;
+      }
+}
+
+.categorias,
+.categorias .categorias{
+    color: white;
+    background-color: #ff0066;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cards .cards__obras .cards__tittle{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cards .cards__obras .cards__subtittle{
+    color: #ff0066;
+}
+
+.cards .cards__obras .card__link{
+    display: inline-block;
+    width: auto;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.card .card_img{
+    height: 600px;
+    width: auto;
+}
+
+.animate__contacto{
+    background-color: #ff0066;
+    .nombre{
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+.animate__contacto .btn{
+    display: inline-block;
+    width: auto;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #ff0066;
+    background-color: white;
+}

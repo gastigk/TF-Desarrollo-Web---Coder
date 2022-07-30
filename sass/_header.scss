@@ -1,0 +1,19 @@
+.headerMenu {
+        .headerNombre{
+            color: #ff0066;
+            font-family: 'Roboto Mono', monospace;
+        }
+        a{
+            color: #333399;
+            padding: 5px;
+            margin-right: 25px;
+            border-radius: 50px;
+            font-family: 'Roboto Mono', monospace;
+            text-align: start;
+        }
+        .headerSubmenu{
+            color: black;
+            font-family: 'Roboto Mono', monospace;
+            text-align: start;
+        }
+}

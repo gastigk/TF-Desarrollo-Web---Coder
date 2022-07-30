@@ -11,7 +11,7 @@
     <meta name="keywords" content="arte, artista, dibujante, dibujos, astel, acuarelas, clases presenciales, clases virtuales, eventos de arte, Frida, Kuster">
     
     <!-- Hoja de estilo-->
-    <link rel="stylesheet" href="./sass/estilado.css">
+    <link rel="stylesheet" href="./sass/main.css">
 
     <!-- Tipografía: Parisienne y Caveat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,9 +29,9 @@
     <!-- start header --> 
     <header class="header container-fluid">
       <nav class="navbar navbar-expand-lg"> 
-        <div class="menu container-fluid align-items-end">
+        <div class="headerMenu container-fluid align-items-end">
           <a class="navbar-brand" href="index.html">
-            <h1 class="nombre fw-bold fs-3">Frida Kuster</h1>
+            <h1 class="headerNombre fw-bold fs-3">Frida Kuster</h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown" aria-expanded="false">Mi Galeria</a>
                 <ul class="dropdown-menu">
-                    <li><a class="submenu dropdown-item fw-bold" href="./pages/acuarelas.html">Acurelas</a></li>
-                    <li><a class="submenu dropdown-item fw-bold" href="./pages/pasteles.html">Pastel</a></li>
+                    <li><a class="headerSubmenu dropdown-item fw-bold" href="./pages/acuarelas.html">Acurelas</a></li>
+                    <li><a class="headerSubmenu dropdown-item fw-bold" href="./pages/pasteles.html">Pastel</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -76,30 +76,30 @@
       <!-- start galeria -->             
       <section class="galeria d-flex row align-items-center col-10 py-2 rounded">
         <div class="col d-flex-row p-3">
-            <h2 class="galeria__tittle display-1">Pintura y dibujo</h2>
-            <p class="galeria__text fs-3">Diseños inspirados y pensados para agasajar.</p>
+            <h2 class="galeriaTittle display-1">Pintura y dibujo</h2>
+            <p class="galeriaText fs-3">Diseños inspirados y pensados para agasajar.</p>
             <div class="row">
               <div class="col-sm-6">
                 <div class="cards card border-warning  o mb-3" style="max-width: 18rem;">
-                  <div class="card__tittle fw-bold card-header">Pintura con Acuarelas</div>
+                  <div class="cardTittle fw-bold card-header">Pintura con Acuarelas</div>
                   <div class="card-body">
-                    <h5 class="card__subtittle fw-bold card-title">Clases virtuales</h5>
-                    <p class="card__text card-text">Historía del arte y técnicas de pintura.</p>
-                    <nav>
-                      <a class="card__btn btn disabled" href="./pages/clases.html" role="button" aria-disabled="true">quiero saber más</a>
-                    </nav>
+                    <h5 class="cardSubtittle fw-bold card-title">Clases virtuales</h5>
+                    <p class="cardText card-text">Historía del arte y técnicas de pintura.</p>
+                    <nav class="align-items-end py-2">                        
+                      <a href="./pages/clases.html" class="btn fw-bold">quiero saber más</a>
+                    </nav>        
                   </div>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="cards card border-warning mb-3" style="max-width: 18rem;">
-                  <div class="card__tittle fw-bold card-header">Dibujo con Pastel</div>
+                  <div class="cardTittle fw-bold card-header">Dibujo con Pastel</div>
                   <div class="card-body">
-                    <h5 class="card__subtittle fw-bold card-title">Clases presenciales</h5>
-                    <p class="card__text card-text">Arte contemporáneo y técnicas de dibujo.</p>
-                    <nav>
-                      <a class="card__btn btn disabled" href="./pages/clases.html" role="button" aria-disabled="true">quiero saber más</a>
-                    </nav>
+                    <h5 class="cardSubtittle fw-bold card-title">Clases presenciales</h5>
+                    <p class="cardText card-text">Arte contemporáneo y técnicas de dibujo.</p>
+                    <nav class="align-items-end py-2">                        
+                      <a href="./pages/clases.html" class="btn fw-bold">quiero saber más</a>
+                    </nav>  
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@
           <h2 class="nosotras__tittle text-center display-1 pt-2">Quiénes somos</h2>
                           
         <div class=" col-9 align-items-center">
-            <p class="text-center fs-3">Somos la familia Kuster, sabemos sobre arte.</p>
+            <p class="text-center fs-3">La familia Kuster, amamos el arte.</p>
             
           <div class="row row-cols-1 row-cols-md-2 g-4">
 
